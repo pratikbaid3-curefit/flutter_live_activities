@@ -5,7 +5,7 @@ homepage: https://dimitridessus.fr/
 repository: https://github.com/istornz/live_activities
 
 environment:
-  sdk: '>=3.0.3 <4.0.0'
+  sdk: '>=3.4.4 <4.0.0'
   flutter: ">=2.5.0"
 
 screenshots:
@@ -24,14 +24,14 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.1.8
-  flutter_app_group_directory: ^1.1.0
+  flutter_app_group_directory:
+    path: /Users/pratikbaid/Desktop/flutter_app_group_directory
   path_provider: ^2.1.5
   image: ^4.5.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
 
 flutter:
   plugin:
